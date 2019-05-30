@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1554400612 source:/home/tarso/Data/Learn/CCpp/Udemy - Aprenda C e Cpp/Aprenda C e Cpp/01-HelloWorld.c
+	<stdio.h>
+	<stdlib.h>
+
