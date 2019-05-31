@@ -1,22 +1,41 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-void main() {
+void main(){
 
-  int nValorInt;
+    //Definindo Variaveis
+    int a;
+    float b;
+    char c;
+    bool d;
 
-  nValorInt = 1;
-  printf("Valor = %d\n", nValorInt);
-  nValorInt = nValorInt - 1;
-  printf("Valor = %d\n", nValorInt);
-  nValorInt -= 1;
-  printf("Valor = %d\n", nValorInt);
-  nValorInt--;
-  printf("Valor = %d\n", nValorInt);
-  nValorInt = nValorInt + 1;
-  printf("Valor = %d\n", nValorInt);
-  nValorInt += 1;
-  printf("Valor = %d\n", nValorInt);
-  nValorInt++;
-  printf("Valor = %d\n", nValorInt);
+    //Passando Valores
+    a = 5;
+    b = 2.3;
+    c = 'a';
+    d = true; //true = 1, false = 0
+
+    //Escrevendo na Tela
+    printf("\n O valor de a = %d", a);
+    printf("\n O valor de b = %.1f", b);
+    printf("\n O valor de c = %c", c);
+    printf("\n O valor de d = %d\n", d);
+
+    //Lendo Valores
+    scanf("%d", &a);
+    scanf("%f", &b);
+    scanf(" %c", &c);
+    if (a > 5) {
+      d = true;
+    } else
+    {
+      d = false;
+    }
+
+    //Escrevendo na Tela
+    printf("\n O valor de a = %d", a);
+    printf("\n O valor de b = %.1f", b);
+    printf("\n O valor de c = %c", c);
+    printf("\n O valor de d (se a > 5) = %d\n", d);
 
 }
